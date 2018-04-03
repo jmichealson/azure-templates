@@ -23,8 +23,8 @@
         "aquaLicenseToken": {
             "value": "GEN-PASSWORD"
         },
-        "aquaCSPImage": {
-            "value": "aquasec/csp:3.0.0"
+        "aquaVersion": {
+            "value": "3.0.1"
         },
         "aquaAdminPassword": {
             "value": "GEN-PASSWORD"
@@ -32,17 +32,14 @@
         "aquaDBPassword": {
             "value": "GEN-PASSWORD"
         },
-        "addACRReg": {
-			"value": "no"
-		},
-		"azureADId": {
-			"value": "GEN-PASSWORD"
-		},
-		"azureADPassword": {
-			"value": "GEN-PASSWORD"
-		},
-		"azureTenantID": {
-			"value": "GEN-PASSWORD"
-		}
+        "proxyServer": {
+            "value": "SERVERNAME_OR_IP"
+        },
+        "proxyUser": {
+            "value": "GEN-UNIQUE"
+        },
+        "proxyPassword": {
+            "value": "GEN-PASSWORD"
+        }
     }
 }
